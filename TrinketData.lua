@@ -44,6 +44,11 @@ return function(Object: Instance)
 				Color = Color3.fromRGB(137, 207, 240),
 				Name = 'Scroll'
 			}
+		elseif Object.MeshId == 'rbxassetid://439102658' then
+			return {
+				Color = Color3.fromRGB(255, 43, 5)
+				Name = 'Phoenix Feather'
+			}	
 		end
 	elseif Object:IsA('Part') then
 		if Object.Color == Color3.fromRGB(89, 34, 89) then
@@ -138,11 +143,21 @@ return function(Object: Instance)
 				Color = Color3.fromRGB(255, 0, 255),
 				Name = 'Scroom Key'
 			}
+		elseif Object.Color == Color3.fromRBG(211, 0, 0) then
+			return {
+				Color = Color3.fromRGB(255, 0, 255)
+				Name = 'Idol Of War'
+			}
+		elseif Object.Color == Color3.fromRGB(21, 30, 38) then
+			return {
+				Color = Color3.fromRGB(21, 30, 38)
+				Name = 'Solans Key'
+			}	
 		end
 	end
 	
 	return {
 		Color = Color3.fromRGB(255, 255, 255),
-		Name = 'Unknown'
+		Name = 'Undefined and probably rare'
 	}
 end
