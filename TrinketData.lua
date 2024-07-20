@@ -2,7 +2,7 @@ return function(Object: Instance)
 	local Light: PointLight = Object:FindFirstChildWhichIsA('PointLight')
 	local Mesh: SpecialMesh = Object:FindFirstChildWhichIsA("SpecialMesh")
 	local Particle: ParticleEmitter = Object:FindFirstChildWhichIsA('ParticleEmitter', true)
-	
+
 	if Object:IsA('MeshPart') then
 		if Object.MeshId == 'rbxassetid://5196551436' then
 			return {
@@ -143,19 +143,19 @@ return function(Object: Instance)
 				Color = Color3.fromRGB(255, 0, 255),
 				Name = 'Scroom Key'
 			}
-		elseif Object.Color == Color3.fromRBG(211, 0, 0) then
+		elseif Object.Color == Color3.fromRGB(211, 0, 0) then
 			return {
-				Color = Color3.fromRGB(255, 0, 255)
+				Color = Color3.fromRGB(255, 0, 255),
 				Name = 'Idol Of War'
 			}
 		elseif Object.Color == Color3.fromRGB(21, 30, 38) then
 			return {
-				Color = Color3.fromRGB(21, 30, 38)
-				Name = 'Solans Key'
+				Color = Color3.fromRGB(21, 30, 38),
+				Name = 'Solans Key',
 			}	
 		end
 	end
-	
+
 	return {
 		Color = Color3.fromRGB(255, 255, 255),
 		Name = 'Undefined and probably rare'
