@@ -46,7 +46,7 @@ return function(Object: Instance)
 			}
 		elseif Object.MeshId == 'rbxassetid://439102658' then
 			return {
-				Color = Color3.fromRGB(255, 43, 5)
+				Color = Color3.fromRGB(255, 43, 5),
 				Name = 'Phoenix Feather'
 			}	
 		end
