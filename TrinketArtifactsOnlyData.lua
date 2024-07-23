@@ -51,6 +51,7 @@ return function(Object: Instance)
 				Color = Color3.fromRGB(255, 0, 255),
 				Name = 'Spider Cloak'
 			}
+		end	
 	elseif Object:IsA('UnionOperation') then
 		if Light and Light.Color == Color3.fromRGB(255, 255, 255) then
 			return {
@@ -84,6 +85,5 @@ return function(Object: Instance)
 			}	
 		end
 	end
-
 	return nil
 end
