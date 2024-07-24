@@ -1,5 +1,5 @@
 return function(Object: Instance)
-	local Light: PointLight = Object:FindFirstChildWhichIsA('PointLight')
+	local Light PointLight = Object:FindFirstChildWhichIsA('PointLight')
 	local Mesh: SpecialMesh = Object:FindFirstChildWhichIsA("SpecialMesh")
 	local Particle: ParticleEmitter = Object:FindFirstChildWhichIsA('ParticleEmitter', true)
 
