@@ -10,7 +10,7 @@ return function(Object: Instance)
 		
 		end
 	elseif Object:IsA('UnionOperation') then
-		if Light and Light.Color == Color3.fromRGB(211, 0, 0) then
+		if Object.Color == Color3.fromRGB(211, 0, 0) then
 			return {
 				Color = Color3.fromRGB(211, 0, 0),
 				Name = 'Tome of War'
